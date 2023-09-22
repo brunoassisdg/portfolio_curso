@@ -6,7 +6,6 @@ header{
     background-color: #9839E3;
     border-bottom: 5px solid black;
     padding-left: 20px;
-    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -22,6 +21,10 @@ a{
     margin-right: 30px;
 }
 
+a:hover{
+    color: #00FF00;
+}
+
 a:before{
     content: "";
     background-color: #00FF00;
@@ -29,6 +32,7 @@ a:before{
     height: 10px;
     margin-right: 10px;
 }
+
 
 #button{
     display: inline-block;
@@ -40,4 +44,8 @@ a:before{
     padding-left: 5px;
     padding-right: 15px;
     box-shadow: 5px 5px 0 black;
+}
+
+#button:hover{
+    color: white;
 }
