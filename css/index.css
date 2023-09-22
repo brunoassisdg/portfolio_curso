@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
 
 header{
+    display: flex;
+    justify-content: space-between;
     background-color: #9839E3;
+    border-bottom: 5px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a{
+    display: inline-flex;
+    align-items: center;
     color: white;
     font-size: 16px;
     font-family: 'Fira Code', Impact, Helvetica, sans-serif;
@@ -13,13 +22,22 @@ a{
     margin-right: 30px;
 }
 
+a:before{
+    content: "";
+    background-color: #00FF00;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
 #button{
     display: inline-block;
+    text-align: center;
     color: #3A4042;
     background-color: #00FF00;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5px;
+    padding-right: 15px;
     box-shadow: 5px 5px 0 black;
 }
