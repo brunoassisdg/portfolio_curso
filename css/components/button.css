@@ -1,0 +1,35 @@
+#button{
+    display: inline-block;
+    text-align: center;
+    color: #3A4042;
+    background-color: #00FF00;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5px;
+    padding-right: 15px;
+    box-shadow: 5px 5px black;
+    transition: box-shadow 300ms ease-in-out;
+}
+
+#button:hover{
+    box-shadow: -5px -5px black;
+}
+
+.button{
+    display: inline-block;
+    text-align: center;
+    color: #3A4042;
+    background-color: #00FF00;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5px;
+    padding-right: 15px;
+    box-shadow: 5px 5px black;
+    transition: transform 100ms linear, opacity 200ms ease-in-out;
+}
+
+.button:hover{
+    color: black;
+    transform: scale(1.02);
+    opacity: 0.9;
+}
